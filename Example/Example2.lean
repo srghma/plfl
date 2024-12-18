@@ -4,7 +4,9 @@ import Mathlib.Data.Set.Basic
 import Mathlib.Data.Finset.Basic
 import Mathlib.Data.Fintype.Basic
 
-abbrev X : Type := Fin 2
+-- abbrev X : Type := Fin 2
+
+def ABC = a | b | c
 
 def x : Finset X := Finset.univ
 
